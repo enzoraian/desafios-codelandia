@@ -94,3 +94,66 @@ body {
   font-weight: 600;
   width: 46rem;
 }
+
+/********************/
+/***DESTAQUES***/
+/********************/
+.destaques {
+  background: var(--white);
+  padding: 4.2rem 0;
+}
+
+.destaques-texto {
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.destaques-texto h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.destaques-texto p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+}
+
+.produto {
+  background: var(--white-200);
+  padding: 2rem 1.5rem;
+}
+
+.produto img {
+  width: 25rem;
+  height: 15rem;
+}
+
+/********************/
+/***FOOTER***/
+/********************/
+footer {
+  background: var(--black-light);
+}
+
+footer p {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1.2rem 0;
+}
+
+/********************/
+/***CLASSES REUTILIZAVEIS***/
+/********************/
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
