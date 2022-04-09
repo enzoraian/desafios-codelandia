@@ -88,15 +88,18 @@ nav a {
 
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .post {
   background: #fff;
   padding: 1.4rem;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
 }
 
 .data {
+  color: #949494;
+
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
@@ -106,4 +109,8 @@ nav a {
 
 .noticia h2 {
   margin-bottom: 1rem;
+}
+
+.noticia p {
+  color: #949494;
 }
