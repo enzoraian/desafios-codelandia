@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  max-width: 94rem;
+  margin: 0 auto;
+
+  /*respiros para o mobile*/
+  padding: 0 2rem;
+}

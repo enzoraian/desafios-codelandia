@@ -1,116 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Desafio 1 - Blog</title>
-  </head>
-  <body>
-    <!--HEADER-->
-    <header>
-      <div class="conteudo">
-        <!--NAV-->
-        <nav>
-          <h1 class="logo">Codelândia</h1>
-          <a href="#">blog</a>
-        </nav>
 
-        <div class="lupa-container">
-          <img src="imagens/lupa.png" alt="lupa pesquisar" />
-          <input class="lupa" type="search" placeholder="Pesquisar no blog" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/patterns.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <title>Codelândia</title>
+</head>
+
+<body>
+
+  <!--HEADER-->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Codelândia</h1>
+      </div>
+
+      <div class="blog">
+        <p>blog</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!--ICONE DENTRO DE INPUT-->
+      <div class="input-container">
+        <img class="icone-lupa" src="img/lupa.png" alt="">
+        <input class="lupa" type="search" placeholder="Pesquisar no blog">
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!--SECTION NOTICIAS-->
+    <section class="section-noticias">
+      <div class="container">
+        <!--NOTICIA 1-->
+        <div class="noticia">
+          <div class="descricao-superior">
+            <span>02 de jul, 2021</span>
+            <img src="img/heart.svg" alt="like noticia">
+          </div>
+
+          <h2>Agora é oficial: o Windows 11 está vindo</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae
+            finibus
+            ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+        </div>
+
+        <!--NOTICIA 2-->
+        <div class="noticia">
+          <div class="descricao-superior">
+            <span>02 de jul, 2021</span>
+            <img src="img/heart.svg" alt="like noticia">
+          </div>
+
+          <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae
+            finibus
+            ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo.
+            Vestibulum
+            nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et,
+            interdum ullamcorper libero.</p>
+        </div>
+
+        <!--NOTICIA 3-->
+        <div class="noticia">
+          <div class="descricao-superior">
+            <span>02 de jul, 2021</span>
+            <img src="img/heart.svg" alt="like noticia">
+          </div>
+
+          <h2>Tem Firefox novo no pedaço e você vai querer migrar</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est.</p>
+        </div>
+
+        <!--NOTICIA 4-->
+        <div class="noticia">
+          <div class="descricao-superior">
+            <span>02 de jul, 2021</span>
+            <img src="img/heart.svg" alt="like noticia">
+          </div>
+
+          <h2>John McAfee, criador do antivírus McAfee, morre</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. Nam vitae
+            finibus
+            ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor justo.
+            Vestibulum
+            nisl orci, lacinia venenatis leo sit amet, pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et,
+            interdum ullamcorper libero.</p>
         </div>
       </div>
-    </header>
 
-    <!--POSTS-->
-    <main class="posts">
-      <!--POST-->
-      <article class="post conteudo">
-        <!--DATA-->
-        <div class="data">
-          <p>02 de julho, 2021</p>
-          <img src="imagens/heart.svg" alt="like" />
-        </div>
+    </section>
+  </main>
 
-        <!--NOTICIA-->
-        <div class="noticia">
-          <h2>Agora é oficial: o Windows 11 está vindo</h2>
-          <p>
-            Com visual minimalista, o Windows 11 ganhou uma aparência mais
-            moderna e claramente inspirada no projeto Windows 10X, que foi
-            descontinuado pela empresa. Uma das principais diferenças aparece
-            logo na área de trabalho, com o menu de Iniciar centralizado,
-            diferente das versões anteriores, quando ficava alinhado à esquerda
-            por padrão.
-          </p>
-        </div>
-      </article>
 
-      <!--POST-->
-      <article class="post conteudo">
-        <!--DATA-->
-        <div class="data">
-          <p>10 de maio, 2021</p>
-          <img class="coracao" src="imagens/heart.svg" alt="like" />
-        </div>
+</body>
 
-        <!--NOTICIA-->
-        <div class="noticia">
-          <h2>Tim Berners-Lee vai leiloar código-fonte da web</h2>
-          <p>
-            Tim Berners-Lee, o programador inglês responsável pela invenção da
-            World Wide Web, vai vender o código-fonte por trás da rede mundial
-            de computadores. São 9.000 linhas de códigos que serão leiloadas no
-            final deste mês pela Sotheby’s como um NFT – "non fungible token" em
-            inglês, ou token não fungível.
-          </p>
-        </div>
-      </article>
-
-      <!--POST-->
-      <article class="post conteudo">
-        <!--DATA-->
-        <div class="data">
-          <p>01 de Janeiro, 2022</p>
-          <img class="coracao" src="imagens/heart.svg" alt="like" />
-        </div>
-
-        <!--NOTICIA-->
-        <div class="noticia">
-          <h2>Tem Firefox novo no pedaço e você vai querer migrar</h2>
-          <p>
-            Tenha toda a velocidade e ferramentas sem invasão de privacidade. O
-            Navegador Firefox coleta tão poucos dados sobre você, que não
-            precisamos nem do seu endereço de email para baixar. Isso porque,
-            diferente de outros navegadores, não temos interesse financeiro em
-            te seguir pela web.
-          </p>
-        </div>
-      </article>
-
-      <!--POST-->
-      <article class="post conteudo">
-        <!--DATA-->
-        <div class="data">
-          <p>13 de Fevereiro, 2022</p>
-          <img class="coracao" src="imagens/heart.svg" alt="like" />
-        </div>
-
-        <!--NOTICIA-->
-        <div class="noticia">
-          <h2>John McAfee, criador do antivírus McAfee, morre</h2>
-          <p>
-            As autoridades espanholas acreditam que o empresário, de 75 anos, se
-            matou após a decisão judicial da última segunda-feira, 21, que
-            autorizava a extradição de McAfee para os EUA, onde iria cumprir
-            pena pelo crime de evasão fiscal. Segundo as autoridades, McAfee foi
-            encontrado enforcado. Uma autópsia está em andamento para confirmar
-            a causa do óbito.
-          </p>
-        </div>
-      </article>
-    </main>
-  </body>
 </html>
