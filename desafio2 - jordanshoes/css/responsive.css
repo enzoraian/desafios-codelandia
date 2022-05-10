@@ -1,0 +1,15 @@
+@media (max-width: 532px) {
+  .tenis {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  html {
+    font-size: 58%;
+  }
+
+  .section-destaques {
+    padding: 5rem 2rem;
+  }
+}
